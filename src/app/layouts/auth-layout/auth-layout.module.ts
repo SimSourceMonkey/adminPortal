@@ -5,6 +5,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { AuthLayoutRoutes } from './auth-layout.routing';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { HttpClientModule } from "@angular/common/http";
+import { RegisterComponent } from 'src/app/components/register/register.component';
 
 import { RtlComponent } from '../../pages/rtl/rtl.component';
 @NgModule({
@@ -12,6 +13,7 @@ import { RtlComponent } from '../../pages/rtl/rtl.component';
     CommonModule,
     RouterModule.forChild(AuthLayoutRoutes),
     FormsModule,
+    ReactiveFormsModule,
     HttpClientModule,
     NgbModule
   ],
